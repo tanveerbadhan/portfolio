@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
     return (
-        <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+        <motion.div variants={fadeIn("right", "spring", index * 0.5, 0.75)}>
             <Tilt
                 options={{
                     max: 45,
@@ -70,4 +70,4 @@ const Works = () => {
     );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "", 0.18);
