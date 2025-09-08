@@ -22,6 +22,7 @@ import {
     b2bDesktop,
     b2bMobile,
     cars24Dealer,
+    actuwell,
 } from "../assets";
 
 export const navLinks = [
@@ -103,18 +104,17 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Software Engineer",
-        company_name: "MakeMyTrip",
-        icon: makeMyTrip,
+        title: "Mobile Application Developer",
+        company_name: "Actuwell",
+        icon: actuwell,
         iconBg: "#E6DEDD",
-        date: "July 2022 - March 2024",
+        date: "May 2025 - Aug 2025",
         points: [
-            "Contributed to the development and maintenance of frontend solutions for various B2B travel platforms using React JS and React Native.",
-            "Played a key role in developing the Common Frontend UI Library, creating reusable components (e.g., Calendar, DatePicker, RangeSlider) used across the organization.",
-            "Enhanced user experience by implementing responsive designs and optimizing web and mobile applications.",
-            "Integrated backend services and ensured smooth interaction between frontend and backend systems.",
-            "Collaborated with cross-functional teams (designers, product managers) to gather requirements and implement UI components.",
-            "Contributed to the development process with agile methodologies, including sprint planning and retrospectives.",
+            "Developed and maintained a comprehensive health assistant mobile application using React Native with Expo, compatible with both iOS and Android",
+            "Delivered features such as personalized health recommendations, secure record storage, and intuitive insights for user well-being",
+            "Integrated Supabase cloud services with PostgreSQL for authentication, data storage, and remote procedure calls (RPC)",
+            "Collaborated with the team using Git for version control, actively contributing to code reviews, PR testing, and cross-functional communication",
+            "Contributed to the app publishing process on the Google Play Store and Apple App Store, ensuring secure and reliable deployment for end users",
         ],
     },
     {
@@ -131,6 +131,21 @@ const experiences = [
             "Leveraged Bitrise for automated app builds and CodePush for seamless app updates on both Play Store and App Store.",
             "Collaborated with cross-functional teams to optimize the app’s performance and ensure smooth delivery of updates.",
             "Managed version control and team collaboration using Bitbucket.",
+        ],
+    },
+    {
+        title: "Software Engineer",
+        company_name: "MakeMyTrip",
+        icon: makeMyTrip,
+        iconBg: "#E6DEDD",
+        date: "July 2022 - March 2024",
+        points: [
+            "Contributed to the development and maintenance of frontend solutions for various B2B travel platforms using React JS and React Native.",
+            "Played a key role in developing the Common Frontend UI Library, creating reusable components (e.g., Calendar, DatePicker, RangeSlider) used across the organization.",
+            "Enhanced user experience by implementing responsive designs and optimizing web and mobile applications.",
+            "Integrated backend services and ensured smooth interaction between frontend and backend systems.",
+            "Collaborated with cross-functional teams (designers, product managers) to gather requirements and implement UI components.",
+            "Contributed to the development process with agile methodologies, including sprint planning and retrospectives.",
         ],
     },
 ];

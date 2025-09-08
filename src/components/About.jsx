@@ -35,9 +35,11 @@ const About = () => {
             </motion.div>
 
             <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-                I'm a skilled Software Development Engineer with more than 2 years of experience in React Native, React Js, JavaScript, and TypeScript. I specialize in building mobile applications and
-                creating reusable UI components. I'm passionate about delivering efficient, scalable, and user-friendly solutions, and I thrive in collaborative environments to bring innovative ideas
-                to life.
+                I am a Software Development Engineer with over 2.5 years of professional experience, specialising in React Native, React.js, JavaScript, and TypeScript. My expertise lies in building
+                scalable mobile applications and developing reusable UI components that enhance user experience. I am currently pursuing a Master of Engineering in Electrical and Computer Engineering
+                at Queen’s University while also holding a Post Graduate Certificate in Mobile Application Development from George Brown College and a Bachelor’s degree in Electronics and
+                Communication from NIT Jalandhar. With a strong foundation in data structures, algorithms, operating systems, and database systems, I am passionate about creating efficient,
+                user-friendly, and innovative solutions while thriving in collaborative and cross-functional environments.
             </motion.p>
 
             <div className="mt-20 flex flex-wrap gap-10">

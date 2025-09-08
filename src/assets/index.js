@@ -28,6 +28,7 @@ import commonFrontendLibrary from "./commonFrontendLibrary.png";
 import b2bDesktop from "./b2bDesktop.png";
 import b2bMobile from "./b2bMobile.jpeg";
 import cars24Dealer from "./cars24Dealer.png";
+import actuwell from "./actuwell.svg";
 
 export {
     logo,
@@ -57,4 +58,5 @@ export {
     b2bDesktop,
     b2bMobile,
     cars24Dealer,
+    actuwell,
 };
