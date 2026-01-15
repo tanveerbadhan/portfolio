@@ -18,7 +18,7 @@ const Hero = () => {
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
                         I Develop Apps, Using <br className="sm:block hidden" />
-                        React Native and React Js
+                        React Native, React Js and Java Spring Boot
                     </p>
                 </div>
             </div>

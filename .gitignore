@@ -27,3 +27,6 @@ dist-ssr
 
 # vscode
 .vscode
+
+#Ignore cursor AI rules
+.cursor/rules/codacy.mdc

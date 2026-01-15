@@ -35,10 +35,14 @@ const About = () => {
             </motion.div>
 
             <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-                I am a Software Development Engineer with over 2.5 years of professional experience, specialising in React Native, React.js, JavaScript, and TypeScript. My expertise lies in building
-                scalable mobile applications and developing reusable UI components that enhance user experience. I am currently pursuing a Master of Engineering in Electrical and Computer Engineering
-                at Queen’s University while also holding a Post Graduate Certificate in Mobile Application Development from George Brown College and a Bachelor’s degree in Electronics and
-                Communication from NIT Jalandhar. With a strong foundation in data structures, algorithms, operating systems, and database systems, I am passionate about creating efficient,
+                Experienced and dedicated Full Stack Developer offering more than 2.5 years of expertise to the IT industry with multiple successful React JS, React Native, and Java Spring Boot
+                projects. Whether it’s building cross-platform apps with React Native, harnessing the power of React JS for web applications, or developing robust backend services with Java Spring
+                Boot, I am dedicated to crafting high-quality, innovative full-stack solutions that exceed expectations. 
+                <br />
+                <br />
+                I am currently pursuing a Master of Engineering in Electrical and Computer
+                Engineering at Queen’s University, Kingston, ON while also holding a Post Graduate Certificate in Mobile Application Development from George Brown College, Toronto, ON and a Bachelor’s degree in Electronics and
+                Communication from NIT Jalandhar, India. With a strong foundation in data structures, algorithms, operating systems, and database systems, I am passionate about creating efficient,
                 user-friendly, and innovative solutions while thriving in collaborative and cross-functional environments.
             </motion.p>
 

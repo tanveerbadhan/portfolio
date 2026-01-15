@@ -42,19 +42,23 @@ export const navLinks = [
 
 const services = [
     {
-        title: "React Native Developer",
+        title: "React Native",
         icon: mobile,
     },
     {
-        title: "React Developer",
+        title: "React",
         icon: web,
     },
     {
-        title: "IOS Developer",
+        title: "Java Spring Boot",
+        icon: web,
+    },
+    {
+        title: "IOS",
         icon: ios,
     },
     {
-        title: "Android Developer",
+        title: "Android",
         icon: android,
     },
 ];
@@ -104,17 +108,18 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Mobile Application Developer",
+        title: "Mobile Application Developer (Co-op)",
         company_name: "Actuwell",
         icon: actuwell,
         iconBg: "#E6DEDD",
         date: "May 2025 - Aug 2025",
         points: [
-            "Developed and maintained a comprehensive health assistant mobile application using React Native with Expo, compatible with both iOS and Android",
-            "Delivered features such as personalized health recommendations, secure record storage, and intuitive insights for user well-being",
-            "Integrated Supabase cloud services with PostgreSQL for authentication, data storage, and remote procedure calls (RPC)",
-            "Collaborated with the team using Git for version control, actively contributing to code reviews, PR testing, and cross-functional communication",
-            "Contributed to the app publishing process on the Google Play Store and Apple App Store, ensuring secure and reliable deployment for end users",
+            "Developed and maintained a comprehensive health assistant full-stack application with React Native and Expo frontend, designed to run seamlessly on both iOS and Android platforms",
+            "Built robust backend services using Java Spring Boot, implementing RESTful APIs for business logic, data processing, and third-party integrations",
+            "Integrated Firebase cloud services with Firestore for authentication, data storage, and real-time database operations, working seamlessly with Spring Boot backend services",
+            "Designed and implemented database schemas, optimized queries, and ensured data consistency across frontend and backend systems",
+            "Collaborated using Git for version control, actively contributing to code reviews, PR testing, and cross-functional communication between frontend and backend teams",
+            "Worked on app deployment to Google Play and Apple App Stores for beta testing with TestFlight and Android Beta Channel Releases",
         ],
     },
     {
@@ -124,13 +129,11 @@ const experiences = [
         iconBg: "#383E56",
         date: "March 2024 - Aug 2024",
         points: [
-            "Worked on the Dealers App, a cross-platform mobile application for registered business partners, developed using React Native.",
-            "Implemented new features and functionalities tailored to both iOS and Android platforms, improving the app's user experience.",
-            "Integrated a Design Language System (DLS) to ensure UI consistency and enhance the app's brand value.",
-            "Utilized Embrace.io for crash monitoring, ensuring swift detection and resolution of app issues.",
-            "Leveraged Bitrise for automated app builds and CodePush for seamless app updates on both Play Store and App Store.",
-            "Collaborated with cross-functional teams to optimize the app’s performance and ensure smooth delivery of updates.",
-            "Managed version control and team collaboration using Bitbucket.",
+            "Worked on the Dealers App, developing a full-stack cross-platform mobile application using React Native for frontend and Java Spring Boot for backend services",
+            "Designed and developed RESTful APIs using Java Spring Boot to handle business logic, data processing, and integration with third-party services",
+            "Implemented new features across frontend and backend, and integrated a Design Language System (DLS) for UI consistency",
+            "Leveraged tools like Embrace.io and Bitrise for app monitoring and automated builds",
+            "Played an instrumental role in the efficient deployment of app updates using CodePush, ensuring seamless user experiences across both iOS and Android platforms",
         ],
     },
     {
@@ -140,12 +143,12 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "July 2022 - March 2024",
         points: [
-            "Contributed to the development and maintenance of frontend solutions for various B2B travel platforms using React JS and React Native.",
-            "Played a key role in developing the Common Frontend UI Library, creating reusable components (e.g., Calendar, DatePicker, RangeSlider) used across the organization.",
-            "Enhanced user experience by implementing responsive designs and optimizing web and mobile applications.",
-            "Integrated backend services and ensured smooth interaction between frontend and backend systems.",
-            "Collaborated with cross-functional teams (designers, product managers) to gather requirements and implement UI components.",
-            "Contributed to the development process with agile methodologies, including sprint planning and retrospectives.",
+            "Developed and maintained full-stack solutions for various B2B travel platforms, building frontend with React JS and React Native, and backend services using Java Spring Boot",
+            "Built robust RESTful APIs with Java Spring Boot for MyPartner, MyBiz, Common Frontend Library, and TripMoney projects, handling business logic, authentication, and data management",
+            "Worked on enhancing the Common Frontend UI Library, which included developing components like Calendars, DatePickers, and Sliders, used across the organization",
+            "Designed and implemented database schemas and ensured seamless integration between Spring Boot backend and React frontend applications",
+            "Improved user experience, integrated backend services, and optimized web and mobile applications for better performance and scalability",
+            "Played a key role in enhancing code quality, testing, and collaborating with cross-functional teams on both frontend and backend development",
         ],
     },
 ];
@@ -178,55 +181,55 @@ const projects = [
     {
         name: "Common Frontend Library (MakeMyTrip)",
         description:
-            "As part of the Common Frontend Library project at MakeMyTrip, I contributed to building and maintaining a collection of reusable React Native and React JS components, including Calendar, DatePicker, RangeSlider, and more. Utilizing TypeScript, Lerna, and a mono repo structure, I collaborated with cross-functional teams to design and implement UI components that adhere to the company’s design system.",
+            "Developed a collection of multiple standalone React Native and React JS packages such as Calendar, DrumRoll DatePicker, RangeSlider, BottomSheet, FloatingInput built inside mono repo utilizing TypeScript and Lerna. Collaborated closely with cross-functional teams, including designers and product managers, to gather requirements and implement UI components. Implemented responsive design principles to guarantee a consistent and optimal user experience across diverse devices and screen sizes. Maintained robust strategies for backward compatibility in the Common Frontend Library, facilitating smooth transitions for existing projects during updates. Integrated SonarQube that led to increase in code quality and implemented Storybook for enhanced component development and documentation.",
         tags: [
             {
                 name: "React Native",
                 color: "blue-text-gradient",
             },
             {
-                name: "React Js",
+                name: "React JS",
                 color: "green-text-gradient",
             },
             {
-                name: "Github",
+                name: "TypeScript",
                 color: "orange-text-gradient",
             },
             {
                 name: "Lerna",
                 color: "pink-text-gradient",
             },
+            {
+                name: "Storybook",
+                color: "blue-text-gradient",
+            },
         ],
         image: commonFrontendLibrary,
         source_code_link: "https://drive.google.com/file/d/1jLzIbg5xWRlHsSPZo0XTj2J9L7SP7eY9/view?usp=drive_link",
     },
     {
-        name: "MakeMyTrip B2B (Desktop)",
+        name: "MakeMyTrip B2B Desktop (MyPartner & MyBiz)",
         description:
-            "For the desktop version of the MakeMyTrip B2B portal, I implemented a dynamic theming system that allowed us to use a single codebase for both MyBiz and MyPartner. This approach ensured consistency across the platforms while streamlining the development process. The theming system allowed seamless integration of backend variables, providing a visually cohesive experience for users across both portals.",
+            "Worked on a full-stack B2B travel agency portal connecting businesses in the travel industry, enabling them to efficiently manage bookings, inventory, and customer relationships. Built robust backend services using Java Spring Boot for MyPartner and MyBiz, implementing RESTful APIs for booking management, inventory control, customer relationship management, and payment processing. Designed and implemented database schemas and ensured data consistency across multiple B2B platforms. Implemented a dynamic theming approach using SCSS, allowing seamless adaptation to backend theme variables for MyBiz and MyPartner. Utilized react-redux, redux-thunk and redux-persist for transient app state and React Router to turn application into Single Page Application. Applied optimization techniques to reduce the page size and load times using sprites, and implemented Webpack module bundler to manage and optimize JavaScript files, increasing productivity by 60%.",
         tags: [
             {
-                name: "React Js",
+                name: "React JS",
                 color: "blue-text-gradient",
             },
             {
-                name: "Redux",
+                name: "Java Spring Boot",
                 color: "green-text-gradient",
             },
             {
-                name: "Axios",
+                name: "SCSS",
                 color: "pink-text-gradient",
             },
             {
-                name: "Scss",
+                name: "Redux",
                 color: "orange-text-gradient",
             },
             {
-                name: "TypeScript",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Github",
+                name: "Webpack",
                 color: "blue-text-gradient",
             },
         ],
@@ -234,32 +237,28 @@ const projects = [
         source_code_link: "https://drive.google.com/file/d/1SpEoZKY4BodMs9IrPjeK_Eo1Hj_WkPxQ/view?usp=sharing",
     },
     {
-        name: "MakeMyTrip B2B (Mobile)",
+        name: "MakeMyTrip B2B App & MWeb (MyPartner & MyBiz)",
         description:
-            "Building on the success of the desktop version, we extended the same approach to the mobile platforms for MyBiz and MyPartner. Using React Native and React Native Web, I was able to ensure that the app worked not only on iOS and Android but also as a Mobile Web Application (MWeb). This allowed us to maintain a consistent user experience across all platforms while maximizing accessibility and engagement for mobile users.",
+            "Worked on user interface that supports Android, iOS and web (using react-native-web), resulting in 71.2% increase in conversion rate. Built backend services using Java Spring Boot to support mobile and web applications, implementing RESTful APIs for booking management and user authentication. Utilized Context API for theming and local state management. Implemented Firebase features including push notifications, Realtime Database, Firestore analytics, crashlytics, integrated with Spring Boot backend services. Implemented various animations to improve the visual appeal and user engagement within the application. Utilized various Common Frontend Library packages, such as DotsCarousel, Calendar, DrumRoll, RangeSlider, BottomSheet, and HorizontalDatePicker.",
         tags: [
             {
                 name: "React Native",
                 color: "blue-text-gradient",
             },
             {
-                name: "React Native-Web",
+                name: "Java Spring Boot",
                 color: "green-text-gradient",
             },
             {
-                name: "Redux",
+                name: "React Native Web",
                 color: "pink-text-gradient",
             },
             {
-                name: "Axios",
+                name: "Firebase",
                 color: "orange-text-gradient",
             },
             {
-                name: "TypeScript",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Github",
+                name: "Context API",
                 color: "blue-text-gradient",
             },
         ],
@@ -269,35 +268,27 @@ const projects = [
     {
         name: "Cars24 Partners (Cars24)",
         description:
-            "The Cars24 Partners app empowers professional car dealers to buy and sell used cars, access certified inspection reports, secure financing, and even sell car leads. I contributed to the app by implementing new features for both iOS and Android using React Native. I integrated a Design Language System (DLS) to ensure UI consistency and used Embrace.io for crash monitoring. Additionally, I streamlined the development process with Bitrise for automated builds and CodePush for seamless app updates without requiring multiple releases.",
+            "Worked on a full-stack one-stop solution for registered business partners to source used cars with certified inspection reports, wide selection, and credit financing options. Built backend services using Java Spring Boot, implementing RESTful APIs for car inventory management and inspection reports. Designed database schemas and optimized queries for efficient data retrieval and management across frontend and backend systems. Integrated a Design Language System (DLS) into the project, consuming UI components from it to elevate app's brand value and ensure UI consistency across platforms. Leveraged Embrace.io for React Native to monitor app crashes, ensuring swift detection and resolving issues. Used Bitrise for automated app builds, streamlining development process and ensuring efficient delivery of updates.",
         tags: [
             {
                 name: "React Native",
                 color: "blue-text-gradient",
             },
             {
-                name: "Redux",
+                name: "Java Spring Boot",
                 color: "green-text-gradient",
             },
             {
-                name: "Axios",
+                name: "Embrace.io",
                 color: "orange-text-gradient",
             },
             {
-                name: "TypeScript",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Code Push",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "BitRise",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Embrace IO",
+                name: "Bitrise",
                 color: "pink-text-gradient",
+            },
+            {
+                name: "CodePush",
+                color: "blue-text-gradient",
             },
         ],
         image: cars24Dealer,
